@@ -24,7 +24,7 @@ This project automates the process using AI.
 - Python  
 - NumPy, Pandas  
 - OpenCV  
-- TensorFlow / PyTorch  
+- TensorFlow  
 - Matplotlib  
 - Scikit-learn  
 
