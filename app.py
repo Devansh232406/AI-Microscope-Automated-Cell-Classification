@@ -53,7 +53,8 @@ if uploaded_file is not None:
     with torch.no_grad():
         output = model(img_tensor)
         prob = torch.sigmoid(output).item()
-
+    
+    st.write(f"Raw probability: {prob:.4f}")
     if prob > 0.5:
         st.error(f"⚠️ Parasitized Cell Detected (Confidence: {prob:.2f})")
     else:
